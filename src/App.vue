@@ -71,7 +71,7 @@ const showWayTooClick = ref(false)
           </div>-->
           <div style="position: absolute;margin: 30px; z-index: 20; grid-row-start: 1; grid-column-start: 1; color: rgba(255,0,0,0); margin-right: 120px">
             <h1>
-              C13 Cloud → Art Direction & Motion →
+              SOLID WHITE → Werkstudent →
               <button v-if="showAll" @click="showAll = false"  class="buttonProjekt buttonProjektShow" >Show Text</button>
               <button v-if="!showAll" @click="showAll = true"  class="buttonProjekt buttonProjektShow">Show Less</button>
             </h1>
@@ -587,7 +587,7 @@ const showWayTooClick = ref(false)
           </div> <!-- waytoomuch-->
           <div style="position: absolute;margin: 30px;grid-row-start: 1; grid-column-start: 1; margin-right: 120px">
             <h1>
-              C13 Cloud → Art Direction & Motion →
+              SOLID WHITE → Werkstudent →
               <button v-if="showAll" @click="showAll = false"  class="buttonProjekt buttonProjektShow2" >Show All</button>
               <button v-if="!showAll" @click="showAll = true"  class="buttonProjekt buttonProjektShow2">Show Less</button>
             </h1>
